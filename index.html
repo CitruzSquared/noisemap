@@ -90,13 +90,13 @@
                 </tr>
                 <tr>
                     <th> Origin Z </th>
-                    <td class="inputbox"> <input type="number" id="origin_y" ,
+                    <td class="inputbox"> <input type="number" id="origin_z" ,
                             placeholder="Leave blank for random value"> </td>
                 </tr>
                 <tr>
                     <th> Sea Height (0 to 1) </th>
-                    <td class="inputbox"> <input type="number" id="ocean_value" , placeholder="Default value is 0.55"
-                            , value="0.55">
+                    <td class="inputbox"> <input type="number" id="ocean_value" , placeholder="Default value is 0.55" ,
+                            value="0.55">
                     </td>
                 </tr>
             </table>
@@ -110,12 +110,15 @@
         </main>
     </div>
     <h2> Information</h2>
-            <ul>
-                <li> <b>Planet Radius</b> - Larger number will generate more (smaller) continents. </li>
-                <li> <b>Seed</b> - Seeds that control the noise. </li>
-                <li> <b>Origin X, Y, and Z</b> - Values that control the noise. </li>
-                <li> <b>Sea Height</b> - Adjusts the height of the oceans. </li>
-            </ul>
+    <ul>
+        <li> <b>Planet Radius</b> - Larger number will generate more (smaller) continents. </li>
+        <li> <b>Seed</b> - Seeds that control the noise. </li>
+        <li> <b>Origin X, Y, and Z</b> - Values that control the noise. Make sure that Origin X (or Y or Z) - radius >
+            0. </li>
+        <li> <b>Sea Height</b> - Adjusts the height of the oceans. </li>
+    </ul>
+    <h2> Statistics </h2>
+    <div id="stats"></div>
 </body>
 
 </html>
