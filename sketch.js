@@ -74,7 +74,7 @@ function make_stats() {
                 <tr> <th> Seed </th> <td> ${seed} </td> </tr>
                 <tr> <th> Origin X </th> <td> ${origin[0]} </td> </tr>
                 <tr> <th> Origin Y </th> <td> ${origin[1]} </td> </tr>
-                <tr> <th> Origin z </th> <td> ${origin[2]} </td> </tr>`
+                <tr> <th> Origin Z </th> <td> ${origin[2]} </td> </tr>`
     document.getElementById("stats").innerHTML += table;
 }
 
