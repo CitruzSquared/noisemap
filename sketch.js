@@ -19,8 +19,8 @@ function draw() {
         for (let t = 0; t < width; t++) {
             let theta = (t / width) * Math.PI * 2 - Math.PI;
             let x = radius * Math.cos(phi) * Math.cos(theta) + origin[0];
-            let y = radius * Math.cos(phi) * Math.sin(theta) + origin[0];
-            let z = radius * Math.sin(phi) + origin[0];
+            let y = radius * Math.cos(phi) * Math.sin(theta) + origin[1];
+            let z = radius * Math.sin(phi) + origin[2];
             let n = noise(x, y, z);
             let c;
             if (n > ocean) {
