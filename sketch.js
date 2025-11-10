@@ -1,5 +1,6 @@
 function setup() {
-    createCanvas(windowWidth / 1.5, windowWidth / 3);
+    let w = Math.max(windowWidth / 1.5, 600);
+    createCanvas(w, w / 2);
 }
 let radius = 2;
 let ocean = 0.55;
