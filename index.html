@@ -70,6 +70,12 @@
                     </td>
                 </tr>
                 <tr>
+                    <th> Sea Height (0 to 1) </th>
+                    <td class="inputbox"> <input type="number" id="ocean_value" , placeholder="Default value is 0.55" ,
+                            value="0.55">
+                    </td>
+                </tr>
+                <tr>
                     <th> Seed </th>
                     <td class="inputbox"> <input type="number" id="seed_value" ,
                             placeholder="Leave blank for random value">
@@ -91,12 +97,6 @@
                     <th> Origin Z </th>
                     <td class="inputbox"> <input type="number" id="origin_z" ,
                             placeholder="Leave blank for random value"> </td>
-                </tr>
-                <tr>
-                    <th> Sea Height (0 to 1) </th>
-                    <td class="inputbox"> <input type="number" id="ocean_value" , placeholder="Default value is 0.55" ,
-                            value="0.55">
-                    </td>
                 </tr>
             </table>
             <button type="button" style="margin: 10px; padding: 10px" , onclick="initialize()">Generate</button>
