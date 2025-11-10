@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(windowWidth / 1.5, windowWidth / 3);
 }
 let radius = 2;
 let ocean = 0.55;
@@ -30,8 +30,6 @@ function draw() {
       set(t, p, c);
     }
   }
-  console.log(seed);
-  console.log(origin);
   updatePixels();
   noLoop();
 }
